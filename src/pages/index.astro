@@ -1,0 +1,99 @@
+---
+import Layout from '../layouts/Layout.astro';
+import eorganizer from '../assets/eorganizer.jpg';
+---
+
+<Layout>
+	
+	<main class="bg-slate-900 text-slate-200 max-w-6xl mx-auto px-4 py-12 md:py-20">
+
+		<section class="text-center mb-20">
+			<h1 class="text-5xl md:text-7xl font-extrabold mb-4">
+				
+				Hola, soy <span class="text-teal-400">Kelvin Chirinos</span>
+			</h1>
+			
+			
+			<p class="text-xl md:text-2xl text-slate-400 mb-8 max-w-3xl mx-auto">
+				Estudiante de Programación | Desarrollador Web Fullstack
+			</p>
+		</section>
+
+		<section id="habilidades" class="mb-20">
+			
+			<h2 class="text-4xl font-bold text-center mb-10 border-b-2 border-teal-400 inline-block mx-auto pb-1">
+				Mis Habilidades
+			</h2>
+			<div class="flex flex-wrap justify-center gap-6 text-lg">
+				
+				<div class="bg-slate-800 p-4 rounded-lg shadow-xl hover:shadow-lg hover:shadow-teal-400/50 transition duration-300">HTML5</div>
+				<div class="bg-slate-800 p-4 rounded-lg shadow-xl hover:shadow-lg hover:shadow-teal-400/50 transition duration-300">CSS / Tailwind CSS</div>
+				<div class="bg-slate-800 p-4 rounded-lg shadow-xl hover:shadow-lg hover:shadow-teal-400/50 transition duration-300">JavaScript</div>
+				<div class="bg-slate-800 p-4 rounded-lg shadow-xl hover:shadow-lg hover:shadow-teal-400/50 transition duration-300">Astro Framework</div>
+				<div class="bg-slate-800 p-4 rounded-lg shadow-xl hover:shadow-lg hover:shadow-teal-400/50 transition duration-300">Git / GitHub</div>
+			</div>
+		</section>
+
+		<section id="proyectos" class="mb-20">
+			
+			<h2 class="text-4xl font-bold text-center mb-10 border-b-2 border-teal-400 inline-block mx-auto pb-1">
+				Proyectos Destacados
+			</h2>
+			
+			<div class="grid md:grid-cols-2 gap-8">
+				
+				<article class="bg-slate-800 p-6 rounded-xl shadow-2xl">
+					<h3 class="text-2xl font-semibold text-teal-400 mb-2">Organizador de eventos</h3>
+					<img src={eorganizer.src} alt="Preview del Organizador de Eventos" class="rounded-lg mb-4 w-full h-auto object-cover">
+					<p class="text-slate-800 bg-teal-400 rounded-lg">debido a unos problemas con la version gratuita de render no se envian los correos de verificacion se arregalara lo antes posible</p>
+					<p class="text-slate-300 mb-4">
+						una aplicacion web donde puedes crear eventos y llevar el contol de los invitados
+					</p>
+					<p class="text-sm font-mono text-slate-300 mb-4">Tecnologías: Astro, HTML, Tailwind CSS, javascrip, nodejs</p>
+
+					
+					<div class="flex space-x-4">
+						<a href="https://event-organizer-jb5e.onrender.com/" class="text-sm font-bold text-teal-400 hover:underline">Ver Demo</a>
+						<a href="https://github.com/Kelvinchi2201/event-organizer" class="text-sm font-bold text-slate-300 hover:text-teal-400">Código (GitHub)</a>
+					</div>
+				</article>
+				
+				<article class="bg-slate-800 p-6 rounded-xl shadow-2xl">
+					<h3 class="text-2xl font-semibold text-teal-400 mb-2">Mi Portafolio (Este sitio)</h3>
+					<p class="text-slate-300 mb-4">
+						El sitio que estás viendo. Hecho con Astro para un rendimiento óptimo y estilizado con Tailwind CSS.
+					</p>
+					<p class="text-sm font-mono text-slate-300 mb-4">Tecnologías: Astro, HTML, Tailwind CSS</p>
+					
+					<div class="flex space-x-4">
+						<a href="#" class="text-sm font-bold text-teal-400 hover:underline">Ver Demo</a>
+						<a href="https://github.com/Kelvinchi2201/new-portafolio" class="text-sm font-bold text-slate-300 hover:text-teal-400">Código (GitHub)</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="contacto" class="text-center pt-10 border-t border-slate-700">
+			<p class="text-lg text-slate-400 mb-8">
+				Estoy buscando oportunidades y estoy listo para contribuir a proyectos.
+			</p>
+			<h2 class="text-4xl font-bold mb-4">Contacto</h2>
+			
+			
+			<a href="mailto:kelvinchirinos2702@gmail.com" 
+			   class="bg-teal-400 hover:bg-teal-500 text-slate-900 font-bold py-3 px-8 rounded-lg transition duration-300 inline-block text-lg">
+				Enviar Correo
+			</a>
+			
+			<div class="mt-8 space-x-6">
+				
+				<a href="https://github.com/Kelvinchi2201" class="text-slate-400 hover:text-teal-400 transition duration-300">GitHub</a>
+				<a href="https://linkedin.com/in/tu_perfil" class="text-slate-400 hover:text-teal-400 transition duration-300">LinkedIn</a>
+			</div>
+			
+			<p class="mt-12 text-sm text-slate-500">
+				&copy; {new Date().getFullYear()} Kelvin Chirinos.
+			</p>
+		</section>
+	</main>
+</Layout>
