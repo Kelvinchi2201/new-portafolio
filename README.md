@@ -19,22 +19,20 @@ El objetivo de este proyecto es tener una plataforma centralizada y visualmente 
 
 Este proyecto fue construido utilizando las siguientes herramientas:
 
-* **Frontend:** [Ej: React.js, Next.js, HTML5/CSS3]
-* **Estilos:** [Ej: Tailwind CSS, Styled Components, SASS]
-* **Despliegue:** [Ej: Vercel, Netlify, GitHub Pages]
-* **Otras:** [Ej: Framer Motion para animaciones, Lucide Icons]
+* **Frontend:** HTML5/CSS3
+* **Estilos:** Tailwind CSS
+* **Despliegue:** Vercel
+* **Otras:** Astro
 
 ## 📸 Vista Previa
 
-> [!TIP]
-> Puedes ver la versión en vivo del portafolio aquí: **[ENLACE A TU DEMO]**
+(https://new-portafolio-rust.vercel.app/)
 
-![Captura de pantalla del portafolio](ruta-a-tu-imagen.png)
+<img width="1280" height="1024" alt="image" src="https://github.com/user-attachments/assets/35ee6d6a-183f-488a-898f-055ec017d906" />
 
-## 🚀 Instalación y Configuración Local
+📬 Contacto
+Si tienes alguna pregunta o simplemente quieres saludar, puedes encontrarme en:
 
-Si deseas clonar este proyecto y ejecutarlo en tu máquina local, sigue estos pasos:
+LinkedIn: (https://www.linkedin.com/in/kelvin-chirinos-304b6637b/)
 
-1. **Clona el repositorio:**
-   ```bash
-   git clone [https://github.com/Kelvinchi2201/new-portafolio.git](https://github.com/Kelvinchi2201/new-portafolio.git)
+Email: kelvinchirinos485@gmail.com
